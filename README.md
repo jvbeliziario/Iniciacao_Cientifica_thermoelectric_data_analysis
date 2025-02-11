@@ -1,6 +1,6 @@
 # Automação e Análise de Dados para Medição da Constante de Seebeck  
 
-Este repositório contém scripts desenvolvidos para a automação laboratorial e análise de dados no contexto da medição da **Constante de Seebeck** em filmes condutores impressos. O projeto está vinculado a pesquisas acadêmicas em um projeto de iniciação científica em colaboração com a **Indústria de Tintas Condutivas TICON**, visando o desenvolvimento de novos materiais eletrônicos e aprimoramento de técnicas de caracterização termoelétrica.  
+Este repositório contém scripts desenvolvidos para a automação laboratorial e análise de dados no contexto da medição da **Constante de Seebeck** em filmes condutores impressos. O projeto está vinculado a pesquisas acadêmicas em um projeto de iniciação científica em colaboração com o **Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPQ)** e a **Indústria de Tintas Condutivas TICON**, visando o desenvolvimento de novos materiais eletrônicos e aprimoramento de técnicas de caracterização termoelétrica.  
 
 ##  Objetivo do Projeto  
 O projeto tem como foco:  
