@@ -27,7 +27,7 @@ Os scripts foram desenvolvidos em **Python** e utilizam as seguintes bibliotecas
 ### 📌 **1. `list_devices.py`**  
 🔍 **Objetivo:** Lista todos os dispositivos conectados via PyVISA, verificando a comunicação com instrumentos como o Keithley 2001.  
 
-### 📌 **2. `keithley2001_voltage.py`**  
+### 📌 **2. `keithley2001_voltage_live_monitor.py`**  
  **Objetivo:** Mede a voltagem utilizando a **Keithley 2001** e exibe o valor no terminal.  
 🔹 Configura o equipamento via GPIB.  
 🔹 Faz medições contínuas até interrupção manual.  
