@@ -24,20 +24,20 @@ Os scripts foram desenvolvidos em **Python** e utilizam as seguintes bibliotecas
 
 ##  Descrição dos Programas  
 
- 📌 **1. `list_devices.py`**  
+ **1. `list_devices.py`**  
 🔍 **Objetivo:** Lista todos os dispositivos conectados via PyVISA, verificando a comunicação com instrumentos como o Keithley 2001.  
 
- 📌 **2. `keithley2001_voltage_live_monitor.py`**  
+ **2. `keithley2001_voltage_live_monitor.py`**  
  **Objetivo:** Mede a voltagem utilizando a **Keithley 2001** e exibe o valor no terminal.  
 🔹 Configura o equipamento via GPIB.  
 🔹 Faz medições contínuas até interrupção manual.  
 
-📌 **3. `keithley2001_liveplot.py`**  
+**3. `keithley2001_liveplot.py`**  
  **Objetivo:** Mede a voltagem e exibe um gráfico em **tempo real** da variação da tensão.  
 🔹 Plota os dados adquiridos ao longo do tempo.  
 🔹 Permite interrupção com a tecla **Esc**.  
 
-📌 **4. `arduino_dual_temp_plot.py`**  
+ **4. `arduino_dual_temp_plot.py`**  
  **Objetivo:** Lê a temperatura de **dois sensores conectados ao Arduino Uno** e plota os valores em tempo real.  
 🔹 Comunicação via porta **USB (Serial)**.  
 🔹 Visualização gráfica contínua das medições de temperatura.  
