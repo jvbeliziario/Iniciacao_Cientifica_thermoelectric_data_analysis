@@ -1,0 +1,1 @@
+# Inicia-o-cient-fica---thermoelectric_data_analysis
