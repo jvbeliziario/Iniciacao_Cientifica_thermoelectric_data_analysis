@@ -1,6 +1,6 @@
 import pyvisa
 import time
-import keyboard  # Library to detect key press
+import keyboard 
 
 # Initialize PyVISA resource manager
 rm = pyvisa.ResourceManager()
