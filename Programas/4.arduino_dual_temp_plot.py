@@ -3,16 +3,15 @@ import time
 import matplotlib.pyplot as plt
 
 # Serial port configuration
-arduino_port = 'COM3'  # Change to the correct port
+arduino_port = 'COM3'
 baud_rate = 9600  # Must match the Arduino's baud rate
 
-# Initialize serial connection with Arduino
 ser = serial.Serial(arduino_port, baud_rate, timeout=1)
 time.sleep(2)
 
 print(f"Connected to Arduino on port {arduino_port}")
 
-
+#Lists
 time_list = []
 temperature_list_1 = []
 temperature_list_2 = []  
@@ -41,7 +40,6 @@ def read_temperatures():
     return None, None
 
 
-# Continuous loop to read and plot data in real-time
 while True:
     temp1, temp2 = read_temperatures()
     if temp1 is not None and temp2 is not None:
