@@ -1,7 +1,6 @@
 import pyvisa
 
-# Initialize PyVISA resource manager
-rm = pyvisa.ResourceManager()
+# Initialize PyVISA resource manager and list available connected devices.
 
-# List available VISA resources (connected devices)
+rm = pyvisa.ResourceManager()
 print("Available VISA devices:", rm.list_resources())
