@@ -42,6 +42,12 @@ Os scripts foram desenvolvidos em **Python** e utilizam as seguintes bibliotecas
 🔹 Comunicação via porta **USB (Serial)**.  
 🔹 Visualização gráfica contínua das medições de temperatura.  
 
+ **5. `keithley2410_voltage_liveplot_datexport.py`**  
+ **Objetivo:** Mede a voltagem e exibe um gráfico em **tempo real** da variação da tensão e também exporta dados em formato .dat para análise posterior em Origin.  
+🔹 Plota os dados adquiridos ao longo do tempo.  
+🔹 Permite interrupção com a tecla **Esc**.   
+
+
 ---
 
 
